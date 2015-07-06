@@ -75,7 +75,8 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 
 *******************************
 1   To run the Cameron Portfolio application, pull up the web application on the web
-2.  When the Cameron Portfolio application is up on the web then go to the Cam's Pizzeria link to get to the Cam's Pizzeria page
+2.  When the Cameron Portfolio application is up on the web
+    A.  Go to the Cam's Pizzeria link Click on the Cam's Pizzeria page
 
 3.  At the Cam's Pizzeria page:
 	A.  You can move to Menu by scrolling down or use the Menu button.
