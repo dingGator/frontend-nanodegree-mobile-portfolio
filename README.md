@@ -1,3 +1,50 @@
+*******************************
+Cameron Portfolio website version 1.0 7/6/2015
+Camerson Portfolio can be reached at:
+voice: 352-281-4199
+e-mail: kim@chucrew.net
+website:
+
+Cameron Portfolio website features Udacity Web Development Courses.
+It showcases Udacity courses which Cameron has taken and taught.
+
+1.  To install the Cameron Portfolio application,
+	A.  Pull up the web application on the web
+
+2.  The project and classes featured are:
+	A.  Build Your Own 2048!
+    B.  Website Performance Optimization
+    C.	Mobile Web Development
+    D.	Cam's Pizzeria
+
+    Each featured items can be access through their links.
+
+3.  At the Cam's Pizzeria page:
+	A.  You can move to Menu by scrolling down or use the Menu button.
+	B.  You can move to Our Ingredients by scrolling down or use the Our Ingredients button.
+	C.  You can move to Locations by scrolling down or use the Locations button.
+	D.  You can move to Contacts by scrolling down or use the Contacts button.
+	E.  You can pick a pizza by using the Pick A Pizza button.
+	F.  You can change the size of your pizza by scrolling down to the Our Pizzas section and then use the Slider to set the size of the pizza.
+
+4.  The optimization was done on index.html to increase pageSpeed to 90.
+	A.  In-line css to eliminate render-blocking css
+	B.  Minify css and js
+	C.  Optimized images by making them the smaller sizes thru compression
+
+5.  The optimization was done on pizza.html to increase pageSpeed to 89,
+	A.  in-line css to eliminate render-blocking css
+	B.  Minify css and js
+	C.  Optimized images by making them smaller sizes thru compression
+
+6.  The optimization was done on main.js
+	A.  Declare the variables outside the "for" loop
+	B.  Use Web API call : documment.getElementsByClassName
+	C.  Optimization of the number of sliding pizza
+	    1.  Use : window.innerHeight divide by the height of element(100px)
+            to dynamically calculate the number of row needed for different browser size
+
+*************************************************
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -73,25 +120,3 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
 
 
-*******************************
-1   To run the Cameron Portfolio application, pull up the web application on the web
-2.  When the Cameron Portfolio application is up on the web
-    A.  Go to the Cam's Pizzeria link Click on the Cam's Pizzeria page
-
-3.  At the Cam's Pizzeria page:
-	A.  You can move to Menu by scrolling down or use the Menu button.
-	B.  You can move to Our Ingredients by scrolling down or use the Our Ingredients button.
-	C.  You can move to Locations by scrolling down or use the Locations button.
-	D.  You can move to Contacts by scrolling down or use the Contacts button.
-	E.  You can pick a pizza by using the Pick A Pizza button.
-	F.  You can change the size of your pizza by scrolling down to the Our Pizzas section and then use the Slider to set the size of the pizza.
-
-4.  The optimization was done on index.html to increase pageSpeed to 90.
-	A.  In-line css to eliminate render-blocking css
-	B.  Minify css and js
-	C.  Optimized images by making them the smaller sizes thru compression
-
-5.  The optimization was done on pizza.html to increase pageSpeed to 89,
-	A.  in-line css to eliminate render-blocking css
-	B.  Minify css and js
-	C.  Optimized images by making them smaller sizes thru compression
