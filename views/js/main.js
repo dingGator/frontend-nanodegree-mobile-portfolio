@@ -363,7 +363,7 @@ var resizePizzas = function(size) {
         var dx = determineDx(container[0], size);
         var newwidth = container[0].offsetWidth + dx + 'px';
         for (var i = 0, len = container.length; i < len; i++) {
-            newwidth = container[i].style.width;
+            container[i].style.width = newwidth;
         }
     }
     changePizzaSizes(size);
@@ -414,8 +414,8 @@ function updatePositions() {
     var top = (document.body.scrollTop / 1250);
     var phase;
     for (var i = 0; i < items.length; i++) {
-        phase = Math.sin(top + i % 5);
-        items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+        phase = Math.sin(top + (i % 5));
+        items[i].style.left = items[i].basicLeft+100 * phase +'px';
     }
     // User Timing API to the rescue again. Seriously, it's worth learning.
     // Super easy to create custom metrics.
